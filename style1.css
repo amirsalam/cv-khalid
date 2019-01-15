@@ -1,9 +1,13 @@
-
+body{
+padding: 147px;
+margin: 0
+}
 .border{
-border:5px solid red;
+border: 5px solid #FF0000;
 border-radius: 20px;
 width: 953px;
-height:1035px;
+height: 1122px;
+}
     
 }
 .container{
@@ -12,20 +16,37 @@ height: 600px;
 
 }
 p{
-color:green;
+color:#769931;
 font-size: 34px;
 margin: 5px;
 padding-top: 10px;
 padding-left: 5px;
 
 }
-
+p i a{
+color:#FF0000;
+text-decoration: none
+}
+h1{
+color:#FF0000;
+}
+h2{
+color:#769931
+}
 .icon1{
 margin:0 10px;
 
 }
 img{
-float:right
+float: right;
+width: 240px;
+border: 5px solid #200d0d;
+border-radius: 40px;
+height: 256px;
+padding: 3px;
+margin: 8px;
+
+
 }
 .profil{
 display: inline;
@@ -37,4 +58,10 @@ text-align: center;
 }
 h2{
 padding-left: 10px;
+}
+li {
+list-style: url('../cv/icone.png');
+}
+ul li {
+font-weight: bold;
 }
